@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyTodoList</string>
+    <string name="HW">Hello World!</string>
+    <string name="todoName">Nom de la chose a faire</string>
+    <string name="emptyValues">Vider la liste</string>
+    <string name="valider">Valider</string>
+</resources>
