@@ -42,4 +42,19 @@ public final class Todo {
         return Todo.getInstance().todoList;
     }
 
+    public final void addToDo(String todo)
+    {
+        this.todoList.add(todo);
+    }
+
+    public final boolean cleanTodo()
+    {
+        this.todoList.clear();
+
+        if (this.todoList.isEmpty())
+        {
+            return true;
+        }
+        return false;
+    }
 }

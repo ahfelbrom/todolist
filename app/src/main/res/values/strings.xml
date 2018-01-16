@@ -4,4 +4,5 @@
     <string name="todoName">Nom de la chose a faire</string>
     <string name="emptyValues">Vider la liste</string>
     <string name="valider">Valider</string>
+    <string name="addNewTodo">Nouvelle tâche</string>
 </resources>

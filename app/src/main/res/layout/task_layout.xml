@@ -6,27 +6,15 @@
     android:layout_height="match_parent"
     tools:context="alexis.boulet.mytodolist.TodoActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvTodoList"/>
-
-    <android.support.v7.widget.AppCompatEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtTodolList"
-        android:hint="@string/todoName"/>
-
     <android.support.v7.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnEmpty"
-        android:text="@string/emptyValues"/>
+        android:id="@+id/btAdd"
+        android:text="@string/addNewTodo"/>
 
-    <android.support.v7.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnValider"
-        android:text="@string/valider"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvTodoList"/>
 
 </android.support.v7.widget.LinearLayoutCompat>
